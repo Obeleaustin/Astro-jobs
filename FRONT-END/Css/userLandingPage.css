@@ -1,0 +1,178 @@
+body{
+    width: 102%;
+    overflow-x: hidden;
+    margin: -0.1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: black; */
+}
+header{
+    position: relative;
+    position:sticky;
+    top: 0;
+    background-color: rgb(1, 6, 118);
+    display: grid;
+    grid-template-columns: 45% 55% ;
+}
+header div img{
+    width: 25%;
+    margin: 1.9% 0 0 7%;
+}
+header ul{
+    margin: 3.5% 3.5% 3.5% 1%;
+    right: 10px;
+}
+header ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 1%;
+    text-align: center;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(3, 150, 199);
+    font-size: 90%;
+
+} 
+header ul li:hover{
+    background-color: orangered;
+}
+#hero{
+    width: 100vw;
+    background-image: url(./OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: green; */
+    height: 80vh;
+    padding-left: -15%;
+    /* scroll-behavior: smooth; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -15px;
+    /* border: 2px solid black; */
+}
+
+#hero ul{
+    display: grid;
+    width: 400%;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 80vh;
+    list-style-type: none;
+    transition: all 0.7s ease;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#hero ul li{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+    width: 100%;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto;
+    padding: 2.5%;
+    padding-bottom: 3%;
+}
+#hero ul li img{
+    max-width: 101%;
+}
+#hero ul li div h1{
+    color: #0066ff;
+    font-size: 30px;
+}
+#hero ul li div p{
+    font-size: 20px;
+    color: white;
+}
+#allButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    margin-left: 5px;
+    margin-top: 7%;
+}
+#hero ul li div p button{
+    background-image: linear-gradient(to right, red, orangered);
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    font-size: 90%;
+    height: 50px;
+    width: 200px;
+}
+#my-image{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./OIP.jpg);   
+}
+#my-image1{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./OIP\ \(1\).jpg);   
+}
+#my-image2{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(.//R.jpg);   
+}
+#my-image3{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./OIP.jpg);   
+}
+.fa-solid{
+    color: orangered;
+}
+#software{
+    display: block;
+    float: left;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+
+}
+#software p{
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    color: black;
+    line-height: 28px;
+}
+#our-listings{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 2%;
+    column-gap: 1%;
+    width: 80%;
+    margin: 0px auto;
+}
+#our-listings div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px grey;
+    height: 400px;
+    border-radius: 20px;
+    width: 100%;
+    transition: 0.7s;
+}
+#our-listings div p input{
+    background-image: linear-gradient(to right, rgb(1, 6, 118), #0066ff);
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    font-size: 90%;
+    height: 50px;
+    width: 120px;
+}
+#our-listings div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
